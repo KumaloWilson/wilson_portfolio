@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Database, Layout, Cpu, Globe, Zap, Palette, Terminal, GitBranch } from 'lucide-react';
+import { Code2, Database, Layout, Cpu, Globe, Zap, } from 'lucide-react';
 
 interface Skill {
   name: string;
