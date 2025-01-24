@@ -81,11 +81,10 @@ export const Projects: React.FC = () => {
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`px-6 py-2 rounded-full transition-all duration-300 ${
-                selectedCategory === category
+              className={`px-6 py-2 rounded-full transition-all duration-300 ${selectedCategory === category
                   ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/25'
                   : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-              }`}
+                }`}
             >
               {category}
             </button>
@@ -98,7 +97,7 @@ export const Projects: React.FC = () => {
           className="grid grid-cols-1 md:grid-cols-2 gap-8"
         >
           <AnimatePresence mode='wait'>
-            {filteredProjects.map((project, index) => (
+            {filteredProjects.map((project) => (
               <motion.div
                 key={project.title}
                 layout
@@ -116,7 +115,7 @@ export const Projects: React.FC = () => {
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  
+
                   {/* Hover Actions */}
                   <div className="absolute bottom-4 left-4 right-4 flex justify-between items-center opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
                     <div className="flex space-x-3">
