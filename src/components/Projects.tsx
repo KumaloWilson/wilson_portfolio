@@ -36,7 +36,7 @@ const projects: Project[] = [
     description: "A telemedicine system providing AI-powered medical guidance and realtime doctor-patient interactions.",
     technologies: ["Flutter", "React", "Firebase", "TensorFlow", "Pandas", "BioMistral", "ZEGOCloud"],
     category: "Healthcare",
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&auto=format&fit=crop&q=60",
+    image: "https://plus.unsplash.com/premium_photo-1661546220316-5a3fdd25641a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     demoUrl: "#",
     githubUrl: "#"
   },
@@ -45,7 +45,7 @@ const projects: Project[] = [
     description: "An AI-powered e-hailing and taxi booking app for urban and rural areas.",
     technologies: ["Flutter", "React", "NodeJs", "Mapbox", "OpenCV", "Firebase"],
     category: "Transportation",
-    image: "https://images.unsplash.com/photo-1597070381106-6fa7ffb1946c?w=800&auto=format&fit=crop&q=60",
+    image: "https://plus.unsplash.com/premium_photo-1661510316006-45fb0f58f5d9?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     demoUrl: "#",
     githubUrl: "#"
   },
@@ -54,7 +54,7 @@ const projects: Project[] = [
     description: "An XR-powered navigation system for CUT campus, integrating ARCore and geospatial mapping.",
     technologies: ["Flutter", "Java", "ARCore", "Mapbox", "Firebase"],
     category: "XR",
-    image: "https://images.unsplash.com/photo-1508614981717-edb210eb0e48?w=800&auto=format&fit=crop&q=60",
+    image: "https://images.unsplash.com/photo-1579616043939-95d87a6e8512?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXVnbWVudGVkJTIwcmVhbGl0eXxlbnwwfHwwfHx8MA%3D%3D",
     demoUrl: "#",
     githubUrl: "#"
   },
@@ -63,7 +63,7 @@ const projects: Project[] = [
     description: "An AI-powered personalized e-learning platform that adapts to students' learning styles.",
     technologies: ["React", "Node.js", "TensorFlow", "Deep Seek", "PostgreSQL"],
     category: "Education",
-    image: "https://images.unsplash.com/photo-1584697964322-c3aed6c211df?w=800&auto=format&fit=crop&q=60",
+    image: "https://images.unsplash.com/photo-1577036056967-aec1101ab9de?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     demoUrl: "#",
     githubUrl: "#"
   }
