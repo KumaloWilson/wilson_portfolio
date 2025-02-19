@@ -13,30 +13,39 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Lead Software Engineer",
-    company: "Kingsman Software Services.",
+    title: "Software Engineer",
+    company: "Abstract Agency",
     period: "2024 - Present",
-    description: "Leading the development of innovative solutions using cutting-edge technologies.",
+    description: "Designed and developed cutting-edge mobile and web software solutions for clients across various industries.",
     achievements: [
-      "Leading a team of 5 developers in building mobile and web solutions",
-      "Implemented CI/CD pipeline reducing deployment time by 60%"
+      "Collaborated with clients to understand their requirements and deliver tailored solutions."
     ],
-    technologies: ["Flutter", "React", "Node.js", "AWS", "TensorFlow"]
+    technologies: ["Flutter", "React", "Next", "Node.js", "Flask", "Laravel"]
   },
 
   {
     title: "Mobile App Developer",
-    company: "Karibu Tech AI",
+    company: "KaribuTech AI",
     period: "2023 - 2024",
-    description: "Specialized in creating cross-platform mobile applications.",
+    description: "Developed and maintained cross-platform mobile applications using Flutter.",
     achievements: [
-      "Developed 3 mobile apps with 100k+ downloads",
-      "Reduced app crash rate by 90% through robust error handling",
-      "Implemented offline-first architecture for rural users"
+      "Collaborated with designers, backend developers, and product managers to deliver user-focused solutions."
     ],
-    technologies: ["Flutter", "Firebase", "REST APIs", "SQLite", "Google Maps"]
+    technologies: ["Flutter", "Firebase", "REST APIs"]
+  },
+
+  {
+    title: "Software Developer",
+    company: "Kingsman Software Services Zimbabwe",
+    period: "2022 - 2023",
+    description: "Built and maintained scalable and secure RESTful APIs and microservices, with a focus on performance and maintainability.",
+    achievements: [
+      "Designed and developed full-stack web and mobile applications using various technologies."
+    ],
+    technologies: ["Flutter", "React", "NextJs", "Springboot", "Node.js", "PostgreSQL", "MySQL", "Supabase", "Firebase"]
   }
 ];
+
 
 export const Experience: React.FC = () => {
   return (

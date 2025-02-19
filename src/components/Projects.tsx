@@ -14,29 +14,56 @@ const projects: Project[] = [
     githubUrl: "#"
   },
   {
-    title: "Farmbot App",
-    description: "A Duolingo-style gamified app guiding farmers based on their activities (crops, animals, fish, etc.).",
-    technologies: ["Flutter", "Firebase", "Machine Learning"],
-    category: "Mobile",
-    image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&auto=format&fit=crop&q=60",
-    demoUrl: "#",
-    githubUrl: "#"
-  },
-  {
-    title: "School Management System",
-    description: "A proprietary school management system tailored for Zimbabwean schools.",
-    technologies: ["React", "Node.js", "PostgreSQL"],
-    category: "Web",
-    image: "https://images.unsplash.com/photo-1497493292307-31c376b6e479?w=800&auto=format&fit=crop&q=60",
-    demoUrl: "#",
-    githubUrl: "#"
-  },
-  {
-    title: "PocketGenie",
+    title: "Local GenAI",
     description: "An offline app enabling users to interact with multiple LLMs on mobile devices.",
-    technologies: ["Flutter", "TensorFlow Lite", "Python"],
+    technologies: ["Flutter", "Lamma CPP", "SQLite"],
     category: "AI",
     image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=60",
+    demoUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    title: "Lucid Eye",
+    description: "A blind assistant app leveraging AI to provide real-time navigation and object recognition.",
+    technologies: ["Flutter", "TensorFlow Lite", "Flask", "NodeJS", "MySQL"],
+    category: "Mobile",
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=60",
+    demoUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    title: "MediGuideAI",
+    description: "A telemedicine system providing AI-powered medical guidance and realtime doctor-patient interactions.",
+    technologies: ["Flutter", "React", "Firebase", "TensorFlow", "Pandas", "BioMistral", "ZEGOCloud"],
+    category: "Healthcare",
+    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&auto=format&fit=crop&q=60",
+    demoUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    title: "ElrickTrans",
+    description: "An AI-powered e-hailing and taxi booking app for urban and rural areas.",
+    technologies: ["Flutter", "React", "NodeJs", "Mapbox", "OpenCV", "Firebase"],
+    category: "Transportation",
+    image: "https://images.unsplash.com/photo-1597070381106-6fa7ffb1946c?w=800&auto=format&fit=crop&q=60",
+    demoUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    title: "CUT Nexus XR Campus Navigation",
+    description: "An XR-powered navigation system for CUT campus, integrating ARCore and geospatial mapping.",
+    technologies: ["Flutter", "Java", "ARCore", "Mapbox", "Firebase"],
+    category: "XR",
+    image: "https://images.unsplash.com/photo-1508614981717-edb210eb0e48?w=800&auto=format&fit=crop&q=60",
+    demoUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    title: "SmartLearn",
+    description: "An AI-powered personalized e-learning platform that adapts to students' learning styles.",
+    technologies: ["React", "Node.js", "TensorFlow", "Deep Seek", "PostgreSQL"],
+    category: "Education",
+    image: "https://images.unsplash.com/photo-1584697964322-c3aed6c211df?w=800&auto=format&fit=crop&q=60",
     demoUrl: "#",
     githubUrl: "#"
   }
@@ -82,8 +109,8 @@ export const Projects: React.FC = () => {
               key={category}
               onClick={() => setSelectedCategory(category)}
               className={`px-6 py-2 rounded-full transition-all duration-300 ${selectedCategory === category
-                  ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/25'
-                  : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/25'
+                : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
                 }`}
             >
               {category}

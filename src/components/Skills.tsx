@@ -21,9 +21,11 @@ const skills: Record<string, { icon: any; skills: Skill[] }> = {
   "Backend Development": {
     icon: Database,
     skills: [
-      { name: "Node.js", level: 95, category: "backend" },
+      { name: "NodeJs", level: 95, category: "backend" },
       { name: "Python/FastAPI", level: 85, category: "backend" },
-      { name: "Python/Flask", level: 70, category: "backend" },
+      { name: "Python/Flask", level: 80, category: "backend" },
+      { name: "Laravel", level: 75, category: "backend" },
+      { name: "Springboot", level: 70, category: "backend" },
       { name: "PostgreSQL", level: 85, category: "backend" },
       { name: "MySQL", level: 95, category: "backend" },
       { name: "GraphQL", level: 60, category: "backend" },
@@ -35,7 +37,7 @@ const skills: Record<string, { icon: any; skills: Skill[] }> = {
     skills: [
       { name: "Flutter", level: 95, category: "mobile" },
       { name: "React Native", level: 75, category: "mobile" },
-      { name: "Android/Kotlin", level: 50, category: "mobile" }
+      { name: "Android/Kotlin", level: 60, category: "mobile" }
     ]
   },
   "DevOps & Cloud": {
